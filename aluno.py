@@ -2,8 +2,8 @@ from pessoa import Pessoa
 
 class Aluno(Pessoa):
 
-    def __init__(self, nome, cpf, dataNasc, matricula):
-        super().__init__(nome, cpf, dataNasc)
+    def __init__(self, nome, cpf, data_nasc, matricula):
+        super().__init__(nome, cpf, data_nasc)
         self.__matricula = matricula
 
     @property
